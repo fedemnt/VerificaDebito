@@ -24,6 +24,12 @@ namespace VerificaDebito
         {
             InitializeComponent();
         }
+        
+        private void btnInserisci_Click(object sender, RoutedEventArgs e)
+        {
+            Alunno a = new Alunno(txtNome.Text, txtCognome.Text, int.Parse(txtEta.Text), txtCittaResidenza.Text);
+            a.toString(txtNome.Text, txtCognome.Text, int.Parse(txtEta.Text), txtCittaResidenza.Text);
+        }
         //Primo commit
     }
 }
