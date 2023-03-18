@@ -24,7 +24,7 @@ namespace VerificaDebito
         {
             InitializeComponent();
         }
-        
+        //commento github
         private void btnInserisci_Click(object sender, RoutedEventArgs e)
         {
             Alunno a = new Alunno(txtNome.Text, txtCognome.Text, int.Parse(txtEta.Text), txtCittaResidenza.Text);
